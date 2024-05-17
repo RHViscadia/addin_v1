@@ -4,7 +4,7 @@
   <Version>1.0.0.0</Version>
   <ProviderName>Contoso</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Test_On_AWS"/>
+  <DisplayName DefaultValue="TEST ADD IN FOR VISCADIA FORECAST PLATFORM"/>
   <Description DefaultValue="A template to get started."/>
   <IconUrl DefaultValue="https://viscadia-forecast-platform.vercel.app/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://viscadia-forecast-platform.vercel.app/assets/icon-64.png"/>
