@@ -13,7 +13,7 @@ async function getHttpsOptions() {
 }
 
 module.exports = async (env, options) => {
-  const dev = options.mode === "development";
+  const dev = options.mode === "development" || process.env.NODE_ENV === "development";
   const config = {
     devtool: "source-map",
     entry: {
