@@ -4,12 +4,14 @@
  */
 
 /* global console, document, Excel, Office */
-
+import React, { useState } from "react";
+import ReactDOM from "react-dom";
 Office.onReady((info) => {
   if (info.host === Office.HostType.Excel) {
-    document.getElementById("sideload-msg").style.display = "none";
-    document.getElementById("app-body").style.display = "flex";
-    document.getElementById("run").onclick = run;
+    document.getElementById("getProfileButton").onclick = run;
+    const container = document.getElementById("root");
+    const root = ReactDOM.createRoot(container); 
+    root.render(<App />);
   }
 });
 

@@ -25,7 +25,7 @@ module.exports = async (env, options) => {
       clean: true,
     },
     resolve: {
-      extensions: [".html", ".js"],
+      extensions: [".html", ".js", ".css"],
     },
     module: {
       rules: [
@@ -49,6 +49,10 @@ module.exports = async (env, options) => {
           type: "asset/resource",
           generator: {
             filename: "assets/[name][ext][query]",
+          },
+          {
+            test: /\.css$/, // Add this rule for CSS files
+            use: ["style-loader", "css-loader"],
           },
         },
       ],

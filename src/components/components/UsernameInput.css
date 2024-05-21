@@ -1,0 +1,200 @@
+/* Container for the whole component */
+.username-input-container {
+  position: relative;
+  width: 433px;
+  height: 501px;
+  
+  background: #FFFFFF;
+}
+
+.redrec{
+  position: absolute;
+  width: 212px;
+  height: 6px;
+  left: 221px;
+  top: 108px;
+  
+  background: #C1C5C8;
+}
+
+.whiterec{
+  position: absolute;
+  width: 221px;
+  height: 6px;
+  left: 0px;
+  top: 108px;
+  
+  background: #BD302B;
+}
+.rec{
+  /* Rectangle 186878 */
+
+position: absolute;
+width: 344px;
+height: 189px;
+left: calc(50% - 344px/2 + 0.5px);
+top: 277px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 4.6px rgba(0, 0, 0, 0.15);
+border-radius: 20px;
+
+}
+/* Logo */
+.logo {
+  position: absolute;
+  width: 250px;
+  height: 80px;
+  left: calc(50% - 250px/2 - 7.5px);
+  top: 14px;
+}
+
+/* Heading */
+h2 {
+ /* Viscadia Forecasting Platform */
+
+/* Viscadia Forecasting Platform */
+
+position: absolute;
+width: 298px;
+height: 35px;
+left: calc(50% - 298px/2 + 0.5px);
+top: 142px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 160%;
+/* or 35px */
+
+color: #000000;
+}
+
+.user-profile-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 6px 22px; */
+  /* gap: 10px; */
+
+  position: absolute;
+  width: 214px;
+  height: 38px;
+  left: calc(50% - 107px);
+  top: 209px;
+
+  background: #BD302B;
+  border-radius: 32px;
+}
+
+.user-profile-button button {
+  width: 170px;
+  height: 26px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%; /* or 26px */
+  color: #FFFFFF;
+
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+
+
+
+/* Input container */
+.input-container {
+  /* Enter your Username */
+
+position: absolute;
+width: 80%;
+height: 14px;
+left: 68px;
+top: 316px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #63666A;
+
+
+}
+.input-container input {
+  width: 80%; /* Make the input field take the full width of the container */
+  border: none;
+  border-bottom: 0.87px solid #C1C5C8; /* Style to make it appear as a line */
+  border-radius: 0; /* Remove border radius */
+  font-size: 16px;
+  outline: none; /* Remove default outline */
+  padding: 0; /* Remove padding to eliminate gap */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  height: 30px; /* Adjust height as needed */
+}
+/* h4{ */
+  /* Enter your Username */
+
+/* position: absolute;
+width: 150px;
+height: 14px;
+left: 68px;
+top: 280px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+/* display: flex;
+align-items: center;
+
+color: #63666A;
+
+
+}  */
+
+.buttonf button {
+ 
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+
+position: absolute;
+width: 113px;
+height: 31px;
+left: 90px;
+top: 90px;
+/* gap: 10px;
+padding: 6px,22px,6px,22px; */
+background: #0081C5;
+border-radius: 32px;
+color: white; /* Set text color to white */
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  border: none;
+  cursor: pointer;
+}
+
+
