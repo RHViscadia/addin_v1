@@ -2,7 +2,7 @@
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
   <Id>38a87010-8651-4657-8e10-896f7bf112fd</Id>
   <Version>1.0.0.0</Version>
-  <ProviderName>Viscadia Dev Team</ProviderName>
+  <ProviderName>Contoso</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="TEST ADD IN FOR VISCADIA FORECAST PLATFORM"/>
   <Description DefaultValue="A template to get started."/>
@@ -10,7 +10,7 @@
   <HighResolutionIconUrl DefaultValue="https://viscadia-forecast-platform.vercel.app/assets/icon-64.png"/>
   <SupportUrl DefaultValue="https://www.contoso.com/help"/>
   <AppDomains>
-    <AppDomain>https://www.viscadia.com</AppDomain>
+    <AppDomain>https://www.contoso.com</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Workbook"/>
